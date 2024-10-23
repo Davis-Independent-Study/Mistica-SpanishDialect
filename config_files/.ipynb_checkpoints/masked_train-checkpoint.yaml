@@ -4,14 +4,14 @@ mode:
     - train
 
 models: 
-      hf_masked_model:
+      hf_text_classification_model:
           - pysentimiento/robertuito-base-uncased
 
 trainfpath: Mistica-SpanishProDrop/train_data.tsv
 validfpath: Mistica-SpanishProDrop/valid_data.tsv
 modelfpath: Mistica-SpanishProDrop/LMs/RoBERTuito_test
 
-numLabels: 3
+numLabels: 2
 
 loadPretrained: False
 

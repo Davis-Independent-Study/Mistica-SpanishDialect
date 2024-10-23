@@ -4,7 +4,7 @@ mode:
     - train
 
 models: 
-      hf_masked_model:
+      hf_text_classification_model:
           - PlanTL-GOB-ES/gpt2-base-bne
 
 trainfpath: Mistica-SpanishProDrop/train_data.tsv
