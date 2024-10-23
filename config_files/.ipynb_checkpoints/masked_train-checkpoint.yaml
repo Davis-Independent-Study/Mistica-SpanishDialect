@@ -4,8 +4,8 @@ mode:
     - train
 
 models: 
-      hf_text_classification_model:
-          - roberta-uncased
+      hf_masked_model:
+          - pysentimiento/robertuito-base-uncased
 
 trainfpath: Mistica-SpanishProDrop/train_data.tsv
 validfpath: Mistica-SpanishProDrop/valid_data.tsv
