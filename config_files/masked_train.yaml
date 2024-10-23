@@ -5,7 +5,8 @@ mode:
 
 models: 
       hf_text_classification_model:
-          - pysentimiento/robertuito-base-uncased
+        #- pysentimiento/robertuito-base-uncased
+          - dccuchile/bert-base-spanish-wwm-uncased
 
 trainfpath: Mistica-SpanishProDrop/train_data.tsv
 validfpath: Mistica-SpanishProDrop/valid_data.tsv
