@@ -1,2 +1,3 @@
-# Mistica-SpanishProDrop
-Exploring dialect variation in Spanish pro-drop and language models
+# Spanish Dialect Identification 
+
+Exploring dialect variation in Spanish with language models. 
