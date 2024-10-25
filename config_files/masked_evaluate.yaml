@@ -1,0 +1,16 @@
+exp: TextClassification
+
+mode:
+    - evaluate
+
+models: 
+      hf_text_classification_model:
+          - Mistica-SpanishProDrop/LMs/RoBERTuito_test2
+
+datafpath: Mistica-SpanishProDrop/test_data.tsv
+
+predfpath: Mistica-SpanishProDrop/results/test_results.tsv
+
+numLabels: 21
+
+

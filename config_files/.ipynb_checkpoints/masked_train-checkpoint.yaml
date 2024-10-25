@@ -5,14 +5,20 @@ mode:
 
 models: 
       hf_text_classification_model:
-          - pysentimiento/robertuito-base-uncased
+        #- pysentimiento/robertuito-base-uncased
+          - dccuchile/bert-base-spanish-wwm-uncased
 
 trainfpath: Mistica-SpanishProDrop/train_data.tsv
 validfpath: Mistica-SpanishProDrop/valid_data.tsv
-modelfpath: Mistica-SpanishProDrop/LMs/RoBERTuito_test
+modelfpath: Mistica-SpanishProDrop/LMs/RoBERTuito_test2
 
-numLabels: 2
+numLabels: 21
 
 loadPretrained: False
 
-samplePercent: 5
+batchSize: 1
+
+#device: gpu 
+
+#change workq to gpu in job submission 
+

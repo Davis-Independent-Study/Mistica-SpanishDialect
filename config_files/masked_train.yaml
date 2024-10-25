@@ -10,10 +10,15 @@ models:
 
 trainfpath: Mistica-SpanishProDrop/train_data.tsv
 validfpath: Mistica-SpanishProDrop/valid_data.tsv
-modelfpath: Mistica-SpanishProDrop/LMs/RoBERTuito_test
+modelfpath: Mistica-SpanishProDrop/LMs/RoBERTuito_test2
 
 numLabels: 21
 
 loadPretrained: False
 
 batchSize: 1
+
+#device: gpu 
+
+#change workq to gpu in job submission 
+
