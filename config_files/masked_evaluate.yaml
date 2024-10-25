@@ -5,11 +5,11 @@ mode:
 
 models: 
       hf_text_classification_model:
-          - Mistica-SpanishProDrop/LMs/RoBERTuito_test2
+          - Mistica-SpanishDialect/LMs/RoBERTuito_test2
 
-datafpath: Mistica-SpanishProDrop/test_data.tsv
+datafpath: Mistica-SpanishDialect/test_data.tsv
 
-predfpath: Mistica-SpanishProDrop/results/test_results.tsv
+predfpath: Mistica-SpanishDialect/results/test_results.tsv
 
 numLabels: 21
 

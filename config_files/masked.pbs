@@ -43,4 +43,4 @@ cd $PBS_O_WORKDIR
 source /local/JupyterHub/bin/activate && conda activate nlp
 ### The following is the command to run on each processor (equivalent to worker in matlab).
 ## python3.11 /path/to/PythonScript
-python /home/kmistica/Untitled_Folder/NLPScholar/main.py /home/kmistica/Untitled_Folder/NLPScholar/Mistica-SpanishProDrop/config_files/masked_train.yaml
+python /home/kmistica/Untitled_Folder/NLPScholar/main.py /home/kmistica/Untitled_Folder/NLPScholar/Mistica-SpanishDialect/config_files/masked_train.yaml

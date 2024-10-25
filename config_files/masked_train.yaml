@@ -8,9 +8,9 @@ models:
         #- pysentimiento/robertuito-base-uncased
           - dccuchile/bert-base-spanish-wwm-uncased
 
-trainfpath: Mistica-SpanishProDrop/train_data.tsv
-validfpath: Mistica-SpanishProDrop/valid_data.tsv
-modelfpath: Mistica-SpanishProDrop/LMs/RoBERTuito_test2
+trainfpath: Mistica-SpanishDialect/train_data.tsv
+validfpath: Mistica-SpanishDialect/valid_data.tsv
+modelfpath: Mistica-SpanishDialect/LMs/RoBERTuito_test2
 
 numLabels: 21
 
