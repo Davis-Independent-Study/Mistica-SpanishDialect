@@ -1,0 +1,16 @@
+exp: TextClassification
+
+mode:
+    - train
+
+models: 
+      hf_text_classification_model:
+          - guillermoruiz/bilma_MX
+
+trainfpath: #Mistica-SpanishDialect/train_data.tsv
+validfpath: #Mistica-SpanishDialect/valid_data.tsv
+modelfpath: #Mistica-SpanishDialect/LMs/GPT2_test
+
+numLabels: 2
+
+loadPretrained: False
