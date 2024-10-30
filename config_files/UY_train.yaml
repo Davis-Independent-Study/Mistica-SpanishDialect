@@ -7,9 +7,10 @@ models:
       hf_text_classification_model:
           - guillermoruiz/bilma_UY
 
-trainfpath: #Mistica-SpanishDialect/train_data.tsv
-validfpath: #Mistica-SpanishDialect/valid_data.tsv
-modelfpath: #Mistica-SpanishDialect/LMs/GPT2_test
+trainfpath: Mistica-SpanishDialect/data/UY_train.tsv
+validfpath: Mistica-SpanishDialect/data/UY_valid.tsv
+modelfpath: Mistica-SpanishDialect/LMs/UY
+
 
 numLabels: 2
 

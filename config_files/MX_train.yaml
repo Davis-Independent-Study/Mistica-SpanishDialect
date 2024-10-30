@@ -7,9 +7,9 @@ models:
       hf_text_classification_model:
           - guillermoruiz/bilma_MX
 
-trainfpath: #Mistica-SpanishDialect/train_data.tsv
-validfpath: #Mistica-SpanishDialect/valid_data.tsv
-modelfpath: #Mistica-SpanishDialect/LMs/GPT2_test
+trainfpath: Mistica-SpanishDialect/data/MX_train.tsv
+validfpath: Mistica-SpanishDialect/data/MX_valid.tsv
+modelfpath: Mistica-SpanishDialect/LMs/MX
 
 numLabels: 2
 
